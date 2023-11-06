@@ -1,7 +1,7 @@
 from faker import Faker
 import psycopg2
 
-conn = psycopg2.connect(database="123", user="123", password="123", host="127.0.0.1", port="123")
+conn = psycopg2.connect(database="postgres", user="postgres", password="Pass@Word001", host="127.0.0.1", port="5432")
 print("Conexão aberta")
 cursor = conn.cursor()
 fake = Faker('pt_BR')
